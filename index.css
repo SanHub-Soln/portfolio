@@ -58,16 +58,16 @@
   --shadow-lib-hover: inset -2px -2px 6px rgba(0, 0, 0, 0.3), 6px 6px 12px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.4);
 
   /* Background Images */
-  --bg-image-hat: url("/images/hat.png");
+  --bg-image-hat: url("images/hat.png");
   --bg-image-wc: url("images/up_car.png");
   --bg-image-businessman: url("images/3d-rendered-illustration-businessman-with-laptop-books.jpg");
   --bg-image-effort: url("images/Pictureofeffort.png");
-  --bg-image-fb0: url("/images/fb0.png");
-    --bg-fb0: url("/images/fb0.png");
-  --bg-image-hbg1: url("/images/hbg1.png");
-  --bg-image-bh0: url("/images/bh0.PNG");
-  --bg-image-t2: url("/images/t2.png");
-  --bg-image-astroid: url("/images/astroid2.png");
+  --bg-image-fb0: url("images/fb0.png");
+    --bg-fb0: url("images/fb0.png");
+  --bg-image-hbg1: url("images/hbg1.png");
+  --bg-image-bh0: url("images/bh0.PNG");
+  --bg-image-t2: url("images/t2.png");
+  --bg-image-astroid: url("images/astroid2.png");
 
   /* Background Colors and Gradients */
   --bg-dark: rgb(10, 6, 0);
