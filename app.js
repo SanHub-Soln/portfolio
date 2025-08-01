@@ -1,69 +1,69 @@
 
 function preloadAssets() {
   const assets = [
-    '/logos/logosk2.png',
-    '/images/sun.png',
-     '/images/exp.png',
-      '/images/edu.png',
-       '/images/cert.png',
-    '/images/moon.png',
-    '/icons/import.svg',
-    '/icons/github-brands-solid.svg',
-    '/icons/circlelinkedimg.svg',
-    '/images/A.png',
-    '/logos/bb.png',
-    '/logos/vu_college.webp',
-    '/logos/tcs1.svg',
-    '/logos/icons8-aws-logo-50.png',
-    '/logos/pycharm.svg',
-    '/logos/javascript.png',
-    '/logos/icons8-html-50.png',
-    '/logos/icons8-css3-50.png',
-    '/logos/tailwind-css.png',
-    '/logos/icons8-java-50.png',
-    '/logos/icons8-python-50.png',
-    '/logos/icons8-c-programming-50.png',
-    '/logos/icons8-c++-50.png',
-    '/logos/icons8-react-js-50.png',
-    '/logos/node-js.png',
+    'logos/logosk2.png',
+    'images/sun.png',
+     'images/exp.png',
+      'images/edu.png',
+       'images/cert.png',
+    'images/moon.png',
+    'icons/import.svg',
+    'icons/github-brands-solid.svg',
+    'icons/circlelinkedimg.svg',
+    'images/A.png',
+    'logos/bb.png',
+    'logos/vu_college.webp',
+    'logos/tcs1.svg',
+    'logos/icons8-aws-logo-50.png',
+    'logos/pycharm.svg',
+    'logos/javascript.png',
+    'logos/icons8-html-50.png',
+    'logos/icons8-css3-50.png',
+    'logos/tailwind-css.png',
+    'logos/icons8-java-50.png',
+    'logos/icons8-python-50.png',
+    'logos/icons8-c-programming-50.png',
+    'logos/icons8-c++-50.png',
+    'logos/icons8-react-js-50.png',
+    'logos/node-js.png',
     '/logos/flask.svg',
     '/logos/django.svg',
     '/logos/selenium.svg',
     '/logos/opencv.svg',
     '/logos/tensorflow.svg',
-    '/logos/pytorch.svg',
-    '/logos/Pandas (1).png',
-    '/logos/numpy (1).svg',
-    '/logos/Matplotlib.png',
-    '/logos/pngwing.com.png',
-    '/logos/NicePng_python-logo-png_702215.png',
-    '/logos/tesseract.svg',
-    '/logos/pillow-logo-248x250.png',
-    '/logos/pngaaa.com-2438729.png',
-    '/icons/forward-solid.svg',
-    '/icons/chevron-right-solid.svg',
-    '/icons/github-uncol.svg',
-    '/images/pro-interface.PNG',
-    '/images/pro-velsscanner.PNG',
-    '/images/pro-resumerouter.PNG',
-    '/images/iy.png',
-    '/images/vrick-landongpage.png',
-    '/icons/instagram1.svg',
-    '/icons/317750_linkedin_icon.svg',
-    '/icons/instagram-uncol.svg',
-    '/icons/colored/instagram.svg',
-    '/icons/github-uncol.svg',
-    '/icons/colored/github-col.svg',
-    '/icons/linkedin-uncol.svg',
-    '/icons/colored/linkedin-col.svg',
-    '/images/wbh1.png',
-    '/images/wc.png',
-    '/images/opip.png',
+    'logos/pytorch.svg',
+    'logos/Pandas (1).png',
+    'logos/numpy (1).svg',
+    'logos/Matplotlib.png',
+    'logos/pngwing.com.png',
+    'logos/NicePng_python-logo-png_702215.png',
+    'logos/tesseract.svg',
+    'logos/pillow-logo-248x250.png',
+    'logos/pngaaa.com-2438729.png',
+    'icons/forward-solid.svg',
+    'icons/chevron-right-solid.svg',
+    'icons/github-uncol.svg',
+    'images/pro-interface.PNG',
+    'images/pro-velsscanner.PNG',
+    'images/pro-resumerouter.PNG',
+    'images/iy.png',
+    'images/vrick-landongpage.png',
+    'icons/instagram1.svg',
+    'icons/317750_linkedin_icon.svg',
+    'icons/instagram-uncol.svg',
+    'icons/colored/instagram.svg',
+    'icons/github-uncol.svg',
+    'icons/colored/github-col.svg',
+    'icons/linkedin-uncol.svg',
+    'icons/colored/linkedin-col.svg',
+    'images/wbh1.png',
+    'images/wc.png',
+    'images/opip.png',
     // Videos
-    '/images/heiop1.mp4',
-    '/images/ohh.mp4',
-    '/images/vmake2.mp4',
-    '/images/vanak1.mp4'
+    'images/heiop1.mp4',
+    'images/ohh.mp4',
+    'images/vmake2.mp4',
+    'images/vanak1.mp4'
   ];
 
   assets.forEach((src) => {
@@ -241,8 +241,8 @@ function toggleTheme() {
     dlMoon.hidden = false;
 
     // Change video sources
-    v1.querySelector("source").src = "/images/vmake2.mp4";
-    v2.querySelector("source").src = "/images/vanak1.mp4";
+    v1.querySelector("source").src = "images/vmake2.mp4";
+    v2.querySelector("source").src = "images/vanak1.mp4";
     v1.load();
     v2.load();
 
@@ -255,10 +255,10 @@ function toggleTheme() {
     root.style.setProperty("--bg-dark", "white");
     root.style.setProperty("--bg-grey", "burlywood");
     root.style.setProperty("--bg-lang-sec", "rgb(219, 182, 123)");
-    root.style.setProperty("--bg-image-bh0", "url('/images/wbh1.png')");
+    root.style.setProperty("--bg-image-bh0", "url('images/wbh1.png')");
     root.style.setProperty("--border-orange-brown", "chocolate");
     root.style.setProperty("--font-bisque", "black");
-    main.style.backgroundImage = "url('/images/wc.png')";
+    main.style.backgroundImage = "url('images/wc.png')";
     root.style.setProperty("--bg-od", "#E1BF93");
     root.style.setProperty("--border-edu-sec", "chocolate");
     root.style.setProperty("--bg-dark1", "#BA9A71");
@@ -284,8 +284,8 @@ function toggleTheme() {
     dlMoon.hidden = true;
 
     // Restore original video sources
-    v1.querySelector("source").src = "/images/heiop1.mp4";
-    v2.querySelector("source").src = "/images/ohh.mp4";
+    v1.querySelector("source").src = "images/heiop1.mp4";
+    v2.querySelector("source").src = "images/ohh.mp4";
     v1.load();
     v2.load();
     root.style.setProperty("--im-wid", "60%");
@@ -299,11 +299,11 @@ function toggleTheme() {
     root.style.setProperty("--bg-gradient-project", "linear-gradient(125deg, rgb(46, 21, 4), burlywood)");
     root.style.setProperty("--bg-proitem-div", "linear-gradient(burlywood 10%,rgb(145, 67, 11))");
     root.style.setProperty("--bg-dark", "rgb(10, 6, 0)");
-    root.style.setProperty("--bg-image-bh0", "url('/images/bh0.PNG')");
+    root.style.setProperty("--bg-image-bh0", "url('images/bh0.PNG')");
     root.style.setProperty("--font-bisque", "bisque");
     root.style.setProperty("--bhsha", "0px 0px 0px rgba(54, 32, 0, 0.7)");
     root.style.setProperty("--blur", " blur(0px)");
-    main.style.backgroundImage = "url('/images/up_car.png')";
+    main.style.backgroundImage = "url('images/up_car.png')";
     root.style.setProperty("--bg-dark1", "rgb(10, 6, 0)");
     root.style.setProperty("--bg-gradient-project", " linear-gradient(125deg, rgb(46, 21, 4), black)");
     root.style.setProperty("--bg-proitem-div", "linear-gradient(black 10%,rgb(145, 67, 11))");
