@@ -3843,7 +3843,7 @@ body.scrolling-up::-webkit-scrollbar-thumb {
 }
 
 #loader #incar {
-  background-image: url(/images/pi.png);
+  background-image: url(images/pi.png);
   background-position: top;
   background-size: cover;
   animation: fadecarup 2s ease-out forwards;
