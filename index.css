@@ -3786,7 +3786,7 @@ body.scrolling-up::-webkit-scrollbar-thumb {
   transform: translate(-50%, -50%);
   z-index: 10;
   font-size: 3rem;
-  background: linear-gradient(125deg, chocolate, #9f4c08, #f4caa8);
+  background: linear-gradient(125deg, white, #9f4c08, #f4caa8);
   background-size: 100%;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
