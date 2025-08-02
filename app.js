@@ -255,7 +255,7 @@ function toggleTheme() {
     root.style.setProperty("--bg-dark", "white");
     root.style.setProperty("--bg-grey", "burlywood");
     root.style.setProperty("--bg-lang-sec", "rgb(219, 182, 123)");
-    root.style.setProperty("--bg-image-bh0", "url('images/wbh1.png')");
+    root.style.setProperty("--bg-image-bh0", "url('images/wbh1.PNG')");
     root.style.setProperty("--border-orange-brown", "chocolate");
     root.style.setProperty("--font-bisque", "black");
     main.style.backgroundImage = "url('images/wc.png')";
@@ -813,3 +813,4 @@ const MAX_WORDS = 200;
       }
     });
   });
+
